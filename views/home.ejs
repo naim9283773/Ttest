@@ -1,0 +1,6 @@
+<% include layout.ejs %>
+<h1>Welcome, <%= user.firstName %>!</h1>
+<p><strong>Full Name:</strong> <%= user.firstName %> <%= user.lastName %></p>
+<p><strong>Username:</strong> @<%= user.username %></p>
+<p><strong>Telegram ID:</strong> <%= user.telegramId %></p>
+<img src="<%= user.photoUrl %>" alt="Profile Picture" style="width: 150px; border-radius: 50%;">
